@@ -12,10 +12,10 @@
 
 
 # Pandas
-#read csv files
-# import pandas as pd
-# df = pd.read_csv(r'C:\Users\ELCOT\Downloads\PurchaseOrders.csv')
-# print(df.to_string())
+# read csv files
+import pandas as pd
+df = pd.read_csv('PurchaseOrders.csv')
+print(df.to_string())
 
 
 #for series
@@ -81,8 +81,8 @@ import pywhatkit as kit
 
 
 # 8. webbrowser
-import webbrowser
-webbrowser.open_new_tab("https://www.youtube.com/watch?v=5oH9Nr3bKfw")
+# import webbrowser
+# webbrowser.open_new_tab("https://www.youtube.com/watch?v=5oH9Nr3bKfw")
 
 
 
